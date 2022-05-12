@@ -2,22 +2,52 @@
     color: White;
 }
 
+.nav-item{
+  font-family: 'Rubik Glitch', cursive;
+}
+
+.h1 {
+  font-family: 'Audiowide', cursive;
+}
+
+ /*colors*/
+
 .bg-success {
-    background-image: url(/images/Fest1.jpg);
+    background-image: url(/images/jumbofest.jpg);
     background-size: cover;
 }
 
+.bg-info {
+  color: #4D9DE0;
+}
+
+.bg-warning {
+  color: #F3FFCC;
+}
+
+.bg-light {
+  color: #D5C9DF;
+}
+
+/*end of colors*/
+
+/*index*/
+
+#index-body{
+  background-color: #4D9DE0;
+}
+
 #jumbotron {
-    min-height: 50%;
+    min-height: 75%;
 }
 
  /*flip cards*/
 
 .flip-card {
     background-color: transparent;
-    width: 200px;
+    width: 252px;
     height: 400px;
-    border: 1px solid #f1f1f1;
+    border: 2px solid black;
     perspective: 1000px; /* Remove this for no 3D effect */
   }
 
@@ -52,4 +82,54 @@
     color: white;
     transform: rotateY(180deg);
   }
+
+
+
+  /*ticket page*/
+
+  #ticket-body {
+    background-image: url(/images/fest2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .accordion-body {
+    background-color: linear-gradient(#ff9966, #ff5e62)
+  }
+
+  /*end of ticket page*/
+
+  /*start of contact page*/
+
+  #contact-body{
+      background-image: url(/images/crowd1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  
+
+  /*attempted parallax
+  #parallax-header{
+    background: #000;
+    background: linear-gradient(
+      rgba(0,0,0,0.3,)
+      rgba(0,0,0,0.8,)
+      ),  
+      url(/images/concert2.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }*/
+
+  #logo{
+    max-width: 200px;
+    max-height: 250px;
+  }
+
+ 
+
+
   
